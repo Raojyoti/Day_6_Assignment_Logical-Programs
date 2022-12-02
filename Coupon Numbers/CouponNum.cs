@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Coupon_Numbers
 {
-    public class CouponNum
+    internal class CouponNum
     {
-        public static int num=10;
+        public static int num;
         public static string str = "ABCDEFIGHIJKLMNOPQRSTUVWXYZabcdefighjklmnopqrstuvwxyz1230456789";
         static string randomstring = "";
         public static void CoupNumber()

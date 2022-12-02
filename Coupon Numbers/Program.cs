@@ -7,6 +7,8 @@ namespace Coupon_Numbers
     {
         static void Main(string[] args)
         {
+            Console.Write("Enter number: ");
+            CouponNum.num = Convert.ToInt32(Console.ReadLine());
             CouponNum.CoupNumber();
         }
     }
